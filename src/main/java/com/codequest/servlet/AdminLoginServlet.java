@@ -1,4 +1,3 @@
-
 package com.codequest.servlet;
 
 import com.codequest.util.DBConnection;
@@ -95,7 +94,6 @@ public class AdminLoginServlet extends HttpServlet {
                     "A database error occurred. Check the server log.");
         }
     }
-
     private void showError(HttpServletRequest request,
                            HttpServletResponse response,
                            String message)
